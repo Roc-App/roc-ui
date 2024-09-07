@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/.idea/shelf/在进行更新之前于_2023_11_20,_08_58_取消提交了变更_[变更]" isTestSource="false" packagePrefix="com.roc.web.controller.system" />
+      <sourceFolder url="file://$MODULE_DIR$/.idea/shelf/在进行更新之前于_2023_5_8,_16_50_取消提交了变更_[变更]" isTestSource="false" packagePrefix="com.roc.web.controller.system" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="roc-generator" />
+    <orderEntry type="module" module-name="roc-framework" />
+    <orderEntry type="module" module-name="roc-quartz" />
+    <orderEntry type="module" module-name="roc-common" />
+    <orderEntry type="module" module-name="roc-system" />
+  </component>
+</module>

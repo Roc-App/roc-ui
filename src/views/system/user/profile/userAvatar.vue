@@ -135,15 +135,16 @@ export default {
     },
     // 上传图片
     uploadImg() {
-      this.$refs.cropper.getCropBlob(data => {
+      const self = this
+      self.$refs.cropper.getCropBlob(data => {
         const formData = new FormData()
         formData.append('avatarfile', data)
         uploadAvatar(formData).then(response => {
-          this.open = false
-          this.options.img = process.env.VUE_APP_BASE_API + response.imgUrl
-          store.commit('SET_AVATAR', this.options.img)
-          this.$modal.msgSuccess('修改成功')
-          this.visible = false
+          self.open = false
+          self.options.img = process.env.VUE_APP_BASE_API + response.imgUrl
+          store.commit('SET_AVATAR', self.options.img)
+          self.$modal.msgSuccess('修改成功')
+          self.visible = false
         })
       })
     },
